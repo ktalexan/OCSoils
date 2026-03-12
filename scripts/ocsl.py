@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Project: Project Template
-# Title: Project Template Main Class ----
+# Project: OC Soils
+# Title: Orange County USGS Soils Dataset (OCSoils) Repository ----
 # Author: Dr. Kostas Alexandridis, GISP
 # Date: January 2026
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -235,16 +235,16 @@ class DualOutput:
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Define the main class ----
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class ClassTemplate:
+class OCSL:
     """
-    A class containing functions and methods for the Project Template.
+    A class containing functions and methods for the Orange County USGS Soils Dataset (OCSoils) Repository.
     Attributes:
         None
     Methods:
         project_metadata(part: int, version: float, silent: bool = False) -> dict:
-            Generates project metadata for the OCUP data processing project.
+            Generates project metadata for the OCSoils data processing project.
         project_directories(silent: bool = False) -> dict:
-            Generates project directories for the OCSWITRS data processing project.
+            Generates project directories for the OCSoils data processing project.
     Returns:
         None
     Raises:
@@ -253,7 +253,7 @@ class ClassTemplate:
         >>> metadata = project_metadata(1, 1)
         >>> prj_dirs = project_directories()
     Notes:
-        This class is used to generate project metadata and directories for the project.
+        This class is used to generate project metadata and directories for the OCSoils data processing project.
     """
 
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -261,7 +261,7 @@ class ClassTemplate:
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     def __init__(self, part: int, version: float):
         """
-        Initializes the ProjectTemplate class.
+        Initializes the OCSL class.
         """
         # Create a DualOutput instance for logging
         self.logger = DualOutput()
@@ -334,8 +334,8 @@ class ClassTemplate:
                 step = "Part 0: General Data Processing"
                 desc = "General data processing and analysis (default)."
 
-        # Import the ocup_metadata json file
-        metadata_file = os.path.join(os.getcwd(), "metadata", "ocup_metadata.json")
+        # Import the ocsoils_metadata json file
+        metadata_file = os.path.join(os.getcwd(), "metadata", "ocsoils_metadata.json")
         if not os.path.exists(metadata_file):
             raise FileNotFoundError(f"Metadata file not found: {metadata_file}")
         

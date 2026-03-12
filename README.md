@@ -1,26 +1,25 @@
-<h1 align = "center">🗄️ <PROJECT_TITLE></h1>
+<h1 align = "center">🗄️ OCSoils</h1>
 <div align = "center">
 
-<h3>🔖 <PROJECT_SUBTITLE></h3>
+<h3>🔖 Orange County OC Soils GitHub Repository</h3>
 
-**👤 Kostas Alexandridis, PhD, GISP** | *🏷️ v. 2025.0, Month 2025*
+**👤 Kostas Alexandridis, PhD, GISP** | *🏷️ v. 2026.1, March 2026*
 
-![Static Badge](https://img.shields.io/badge/ProjectTemplate-GitHub?style=plastic&logo=github&logoSize=auto&labe=GitHub&labelColor=navy) 
-![GitHub License](https://img.shields.io/github/license/ktalexan/ProjectTemplate?style=plastic&labelcolor=black) 
-![Shield Badge: Language-Julia](https://img.shields.io/static/v1?style=plastic&label=language&message=Julia&logo=julia&color=purple&labelColor=black) 
+![Static Badge](https://img.shields.io/badge/OCSoils-GitHub?style=plastic&logo=github&logoSize=auto&labe=GitHub&labelColor=navy) 
+![GitHub License](https://img.shields.io/github/license/ktalexan/OCSoils?style=plastic&labelcolor=black) 
 ![Shield Badge: Language-Python](https://img.shields.io/static/v1?style=plastic&label=language&message=Python&logo=python&color=forestgreen&logoColor=blue&labelColor=black)
 
 </div>
 
 ----
   
-## 🗃️ ProjectTemplate Project Overview
+## 🗃️ OCSoils Project Overview
 
-**Description**: <PROJECT_DESCRIPTION>
+**Description**: This repository contains the Orange County OC Soils dataset and related analysis. It includes standard configurations and files to help you get started quickly.
 
-**Keywords**: <PROJECT_TAGS>
+**Keywords**: GitHub, Python
 
-**Repository Type**: <REPO_TYPE>
+**Repository Type**: template/snippets/archived/geospatial/ai-ml/policy/dtc
 
 Below, the main project folder structure is provided and described. The project is organized into several folders, each containing specific types of files related to the analysis.
 
